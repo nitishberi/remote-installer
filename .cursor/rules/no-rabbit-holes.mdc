@@ -1,0 +1,12 @@
+---
+description: Do not expand scope or dive into unrelated workflows unless the user asks or confirms
+alwaysApply: true
+---
+
+# No rabbit holes
+
+- Answer the request that was asked. Prefer the shortest useful path.
+- Do **not** start environment setup, migrations, refactors, CI wiring, MCP diagnostics, snapshots, draft builds, or other adjacent workflows unless the user explicitly asks for them.
+- If a broader approach might help, ask first and wait for confirmation. Do not proceed on assumption.
+- Do not "while I'm here" expand into extras, tooling rabbit holes, or speculative fixes.
+- When the user asks for a guide, explanation, or steps: give that. Do not implement, configure, or verify unless they ask.
